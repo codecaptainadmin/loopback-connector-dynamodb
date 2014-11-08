@@ -1,0 +1,12 @@
+env:
+  node: true
+
+plugins:
+  - nodeca
+
+rules:
+  nodeca/indent: 2
+  quotes: 'single'
+
+ignore-path:
+  - .eslintignore

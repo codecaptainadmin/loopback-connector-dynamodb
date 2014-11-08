@@ -1,0 +1,8 @@
+{
+"content": [
+    {"title": "LoopBack DynamoDB Connector API", "depth": 2},
+    "lib/dynamodb.js"
+  ],
+  "codeSectionDepth": 3
+}
+
