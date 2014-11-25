@@ -67,3 +67,10 @@ For example:
 
 :warning: You can't specify `aws_access_key_id` and `aws_secret_access_key` directly in your `datasources.json` file.
 This is intentional. Putting credentials like that into a file are A Very Bad Thing. Quit trying to do that.
+
+
+## TODO
+* Handle queries that include an "order" property better.  Should either throw an error if there is not a rangeKey for the ordered key, or just throw an error entirely. Additionally, if there is a rangeKey for the order, it should make sure a query is possible.
+* Handle declaring local and global secondary indexes better.  The current support is rudimentary.
+* Add better documentation for rudimentary local and global secondary indexes.
+
