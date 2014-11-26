@@ -5,7 +5,6 @@ var path = require('path'),
     ModelBuilder = require('loopback-datasource-juggler').ModelBuilder,
     Schema = require('loopback-datasource-juggler').Schema;
 
-
 var config = require('rc')('loopback', {test: {dynamodb: {
     region: 'local',
     credentials: 'file',
