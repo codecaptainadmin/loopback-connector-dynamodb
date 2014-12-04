@@ -224,6 +224,7 @@ describe('dynamodb imported features', function () {
   });
 
 
+  require('loopback-datasource-juggler/test/common_test.js');
 
   require('loopback-datasource-juggler/test/hooks.test.js');
 
@@ -234,5 +235,6 @@ describe('dynamodb imported features', function () {
   require(path.join(__dirname, 'copied-datatypes-test.js'));
 
   require(path.join(__dirname, 'copied-relations-test.js'));
+
   // require('loopback-datasource-juggler/test/relations.test.js');
 });
