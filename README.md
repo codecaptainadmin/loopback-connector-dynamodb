@@ -74,4 +74,5 @@ This is intentional. Putting credentials like that into a file are A Very Bad Th
 * Handle declaring local and global secondary indexes better.  The current support is rudimentary.
 * Add better documentation for rudimentary local and global secondary indexes.
 * Look into figuring out how to force the older version of should so less modifications to copied tests are required.
+* Do a better job implementing addConitionToExpression to handle values which contain characters that cannot be in expression keys.
 
