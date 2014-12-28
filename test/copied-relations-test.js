@@ -3443,6 +3443,11 @@ describe('relations', function () {
             delete item.id;
             return item;
           });
+          result.sort(function(l,r) {
+            if(l.name < r.name) return -1;
+            if(l.name > r.name) return 1;
+            return 0;
+          });
           result.should.eql(expected);
           done();
         });
